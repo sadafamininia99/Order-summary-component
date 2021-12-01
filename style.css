@@ -1,0 +1,53 @@
+/*********Fontsssssssssss********/
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("font/RedHatDisplay-Regular.eot");
+  src: url("font/RedHatDisplay-Regular.eot?#iefix") format("embedded-opentype"),
+    url("font/RedHatDisplay-Regular.woff2") format("woff2"),
+    url("font/RedHatDisplay-Regular.woff") format("woff"),
+    url("fontRedHatDisplay-Regular.ttf") format("truetype"),
+    url("font/RedHatDisplay-Regular.svg#RedHatDisplay-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("font/RedHatDisplay-Medium.eot");
+  src: url("font/RedHatDisplay-Medium.eot?#iefix") format("embedded-opentype"),
+    url("font/RedHatDisplay-Medium.woff2") format("woff2"),
+    url("font/RedHatDisplay-Medium.woff") format("woff"),
+    url("font/RedHatDisplay-Medium.ttf") format("truetype"),
+    url("font/RedHatDisplay-Medium.svg#RedHatDisplay-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("font/RedHatDisplay-Black.eot");
+  src: url("font/RedHatDisplay-Black.eot?#iefix") format("embedded-opentype"),
+    url("font/RedHatDisplay-Black.woff2") format("woff2"),
+    url("font/RedHatDisplay-Black.woff") format("woff"),
+    url("font/RedHatDisplay-Black.ttf") format("truetype"),
+    url("font/RedHatDisplay-Black.svg#RedHatDisplay-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("RedHatDisplay-Bold.eot");
+  src: url("RedHatDisplay-Bold.eot?#iefix") format("embedded-opentype"),
+    url("RedHatDisplay-Bold.woff2") format("woff2"),
+    url("RedHatDisplay-Bold.woff") format("woff"),
+    url("RedHatDisplay-Bold.ttf") format("truetype"),
+    url("RedHatDisplay-Bold.svg#RedHatDisplay-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
