@@ -1,4 +1,4 @@
-/*********Fontsssssssssss********/
+
 
 @font-face {
   font-family: "Red Hat Display";
@@ -66,94 +66,170 @@ body {
   justify-content: center;
 }
 
-.card {
-  width: 28rem;
+.card{
+  width : 28rem;
   margin: 0px 10px;
-  background: rgb(255, 255, 255);
-  font-family: "Red Hat Display", Arial, sans-serif;
+  background: white;
+  font-family: 'Red Hat Display', Arial, sans-serif;
   display: flex;
   flex-direction: column;
   border-radius: 20px;
   box-shadow: 0px 20px 50px hsl(224, 23%, 55%);
 }
-.illustration img {
+
+
+.illustration img{
   width: 100%;
   border-radius: 20px 20px 0px 0px;
 }
-h1 {
-  font-size: 14px;
+
+h1{
+  font-size: 20px;
+  font-weight: 900;
+  color:hsl(223, 47%, 23%);
+}
+
+h2{
+  font-weight: bold;
+  font-size: 16px;
+  color: hsl(223, 47%, 23%);
+}
+
+p{
+  font-size: 16px;
   color: hsl(224, 23%, 55%);
   font-weight: 500;
 }
-p {
-  font-size: 14px;
-  color: hsl(224, 23%, 55%);
-  font-weight: 500;
-}
-.instruction {
+
+/******** Introduction *********/
+
+.introduction{
   padding: 20px 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  text-align: center;
 }
-.instruction p {
-  line-height: 23px;
+
+.introduction p{
+  line-height: 25px;
 }
-/***annual plane ****/
-.annul-plane-part {
-  padding: 10px 40px;
-  height: 20px 30px;
-  background-color: hsl(224, 100%, 98%);
-  border-radius: 12px;
-  display: flex;
+
+/
+
+.annual_plan{
+  margin: 10px 40px ;
+  padding: 20px 30px ;
+  background-color:hsl(225, 100%, 98%);
+  border-radius: 10px;
+  display:flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center;    
 }
-.annul-plane-part img {
+
+.annual_plan img{
   width: 50px;
   height: 50px;
 }
-.price-part {
+
+.price {
   display: flex;
   flex-direction: column;
-  padding-right: 40px;
+  padding-right: 30px ;
 }
 
-.annul-plane-part h2,
-p {
+.price h2,p{
   margin: 0;
 }
 
-.change-part {
+.change {
   padding-left: 30px;
-  /* margin: 10px; */
   font-weight: 700;
 }
 
-.proceed_payment {
+/*************Button************/
+
+button{
   margin: 20px 40px 10px 40px;
   padding: 15px 30px;
-  background-color: hsl(245, 75%, 52%);
+  background-color:hsl(245, 75%, 52%);
   color: whitesmoke;
   font-weight: 900;
   border-radius: 20px;
   font-size: 14px;
-  border: none;
+  border:none;
   box-shadow: 0px 22px 20px hsl(225, 100%, 94%);
-  font-size: 14px;
- 
 }
-.cancel_order{
+/************* Cancel order **********/
+.cancel_order {
   display: flex;
   justify-content: center;
   font-size: 14px;
   font-weight: bold;
   padding: 25px 0 40px 0;
-
 }
+
 .cancel_order a{
   color: hsl(224, 23%, 55%);
   text-decoration: none;
-  
 }
+
+/****************Active states**************/
+
+.cancel_order a:hover{
+  color: hsl(223, 47%, 23%);
+}
+
+button:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.change a:hover{
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.attribution{
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+
+@media screen and (max-width:376px) 
+{
+
+.introduction{
+  padding: 20px 35px ;  
+}
+
+.annual_plan{
+  padding: 14px;
+}
+
+.price{
+  padding-right:15px;
+}
+.change {
+  padding-left: 0px;
+  font-weight: 700;
+}
+
+}
+
+@media screen and (max-width: 415px){
+  .card{
+    width: 90vw;
+  }  
+
+  .change {
+      padding-left: 0px;
+      font-weight: 700;
+  }
+
+  .annual_plan  p, h2, .price, .change{
+      font-size: 14px;
+  }
+}
+/****mediaaa queries *****/
