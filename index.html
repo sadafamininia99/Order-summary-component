@@ -2,9 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="icon"
@@ -12,39 +10,46 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+
     <title>Frontend Mentor | Order summary card</title>
   </head>
+
   <body>
     <main>
       <div class="card">
         <div class="illustration">
-          <img src="./images/illustration-hero.svg" alt="hero image" />
-          <div class="instruction">
-            <h1>Order Summary</h1>
-            <p>
-              You can now listen to millions of songs, audiobooks, and podcasts
-              on any device anywhere you like!
-            </p>
-          </div>
+          <img src="./images/illustration-hero.svg" alt="Man listening music" />
+        </div>
+        <div class="introduction">
+          <h1>Order Summary</h1>
+          <p>
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+        </div>
 
-          <div class="annul-plane-part">
-            <img src="./images/icon-music.svg" alt="icon music" />
-            <div class="price-part">
-              <h2>Annual plane</h2>
-              <p>$59.99/year</p>
-            </div>
-            <div class="change-part">
-              <a href="#">Change</a>
-            </div>
+        <div class="annual_plan">
+          <img src="./images/icon-music.svg" alt="music note" />
+          <div class="price">
+            <h2>Annual Plan</h2>
+            <p>$59.99/year</p>
           </div>
-          <div class="last-part">
-            Challenged by
-            <a
-              href="https://www.frontendmentor.io?ref=challenge"
-              target="_blank"
-              >Frontend Mentor</a
-            >. Coded by <a href="https://github.com/sadafamininia99"> Sadaf</a>.
+          <div class="change">
+            <a href="#">Change</a>
           </div>
+        </div>
+
+        <button class="proceed_payment">Proceed to Payment</button>
+
+        <div class="cancel_order">
+          <a href="#">Cancel Order</a>
+        </div>
+
+        <div class="attribution">
+          Challenge by
+          <a href="https://github.com/sadafamininia99" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#"> Sadaf</a>.
         </div>
       </div>
     </main>
